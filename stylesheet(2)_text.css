@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700,800&subset=korean');
+@keyframes modalContentFadeIn {
+  0% {
+    opacity:0;
+
+    right: -300px
+  }
+  100% {
+    opacity:1;
+
+    right: 0px
+
+  }
+}
+      #home {color:black;
+      text-decoration:none;}
+      #button {position: fixed;
+      border: 0px;
+      background-color: transparent;
+      width: px;
+      height: px;
+      top: 100px;
+      left: 10px;
+      right: 0;}
+      #button2 {position: fixed;
+      border: 0px;
+      background-color: transparent;
+      width: px;
+      height: px;
+      top: 100px;
+      right: 10px;}
+      #cat {position: fixed;
+      border: 0px;
+      background-color: #efebe8;
+      width: ;
+      height: ;
+      top: 0px;
+      left: 0;
+      right: 0;}
+      #단락 {text-align: left;}
+      #기역기역 {position: fixed;
+      border: 0px;
+      background-color: transparent;
+      bottom: 30px;
+      right: 40px;}
+      #myBtn {position: fixed;
+        z-index: 0;
+      border: 0px;
+      background-color: transparent;
+      bottom: 30px;
+      right: 40px;
+    }
+      #myBtn:hover {opacity: 0;}
+      #myBtn:active, #myBtn:checked {opacity:0;
+                    }
+
+      #계정1, #계정2 {color: white;}
+      #계정1:hover, #계정2:hover {text-decoration: underline;}
+
+      #homebanner
+      {display: block;
+      margin: auto;
+      margin-top: 100px;
+      margin-bottom: 80px;}
+
+
+@font-face { font-family: 'Nanum Myeongjo', serif; }
+
+  body {background-color: #efebe8;cursor:url(온.cur),auto;}
+  a {text-decoration:none;
+  cursor:url(반.cur),auto;
+  }
+  h1 {padding:5px;
+  display:block;
+  width:90%;
+  text-align: center;
+  margin:auto;
+  margin-top: 100px;
+  margin-bottom:30px;
+  font-size:50px;
+  word-break:break-all;
+  font-family: 'Nanum Myeongjo', serif;
+  line-height:70px;}
+  h2 {font-family: 'Nanum Myeongjo', serif;
+  display:block;
+  text-align:center;
+  font-size:70px;
+  line-height:80px}
+  h3 {font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  font-size:35px;}
+  h4 {font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  font-size:20px;
+  line-height: 35px;}
+
+.gif{display: block;
+margin: auto;
+margin-top: 100px;
+line-height: 50px;}
+.카 {color:black;}
+.카:hover {opacity:0;}
+
+#격:hover {color: transparent;}
+#격 {color:#81756f;}
+#궁:hover {color:transparent;}
+#궁 {color:#897e77;}
+#재:hover {color:transparent;}
+#재 {color:#92887f;}
+#나:hover {color:transparent;}
+#나 {color:#9b9288;}
+#실:hover {color:transparent;}
+#실 {color:#a49e90;}
+#하:hover {color:transparent;}
+#하 {color:#afab9d;}
+#애:hover {color:transparent;}
+#애 {color:#bab6a5;}
+#지:hover {color:transparent;}
+#지 {color:#c3c3b1;}
+#혼:hover {color:transparent;}
+#혼 {color:#cdcbb7;}
+#셀:hover {color:transparent;}
+#셀 {color:#cabca6;}
+#따:hover {color:transparent;}
+#따 {color:#c8a88f;}
+#단:hover {color:transparent;}
+#단 {color:#c3937a;}
+#시:hover {color:transparent;}
+#시 {color:#bf7f67;}
+#기:hover {color:transparent;}
+#기 {color:#ba6b55;}
+#보:hover {color:transparent;}
+#보 {color:#b75443;}
+#모:hover {color:transparent;}
+#모 {color:#b43b35;}
+#그:hover {color:transparent;}
+#그 {color:#b0232b;}
+
+.modal {
+  display: none; /* Hidden by default */
+   /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  right: 10px;
+  width: 50%; /* Full width */
+  height: 50%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: transparent; /* Fallback color */
+
+}
+
+/* Modal Content */
+.modal-content {/*font-family: 'Nanum Myeongjo', serif;
+
+font-size: 40px;
+line-height:60px;
+color: white;
+overflow: scroll;*/
+z-index: 3;
+background-color: #b11928;
+width: 280px;
+height: 440px;
+
+position: fixed;
+top: 33.3%;
+bottom: ;
+padding-left: 30px;
+padding-right: 10px;
+padding-top: 30px;
+padding-bottom: 0px;
+animation: modalContentFadeIn .5s 0s linear forwards;
+}
+.content{
+font-family: 'Noto Sans KR', sans-serif;
+
+font-size: 15px;
+line-height:25px;
+color: white;
+z-index: 3;
+width: 250px;
+height: 400px;
+overflow: auto;
+position: center;
+
+animation: modalContentFadeIn .5s 0s linear forwards;
+}
+
+.content2
+{  font-family: 'Noto Sans KR', sans-serif;
+
+font-size: 15px;
+line-height:25px;
+color: white;}
+/* The Close Button */
+.close {
+
+color: #eeece9;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}

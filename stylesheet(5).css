@@ -50,9 +50,7 @@
       bottom: 30px;
       right: 40px;
     }
-      #myBtn:hover {opacity: 0;}
-      #myBtn:active, #myBtn:checked {opacity:0;
-                    }
+    
 
       #계정1, #계정2 {color: white;}
       #계정1:hover, #계정2:hover {text-decoration: underline;}

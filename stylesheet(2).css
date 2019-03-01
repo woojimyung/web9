@@ -50,9 +50,7 @@
       bottom: 30px;
       right: 40px;
     }
-      #myBtn:hover {opacity: 0;}
-      #myBtn:active, #myBtn:checked {opacity:0;
-                    }
+      
 
       #계정1, #계정2 {color: white;}
       #계정1:hover, #계정2:hover {text-decoration: underline;}
@@ -68,7 +66,8 @@
 
   body {background-color: #efebe8;cursor:url(온.cur),auto;}
   a {text-decoration:none;
-  cursor:url(반.cur),auto;}
+  cursor:url(반.cur),auto;
+  }
   h1 {padding:5px;
   display:block;
   width:90%;
@@ -93,6 +92,10 @@
   font-size:20px;
   line-height: 35px;}
 
+.gif{display: block;
+margin: auto;
+margin-top: 100px;
+line-height: 50px;}
 .카 {color:black;}
 .카:hover {opacity:0;}
 
