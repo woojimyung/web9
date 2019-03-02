@@ -50,7 +50,7 @@
       bottom: 30px;
       right: 40px;
     }
-    
+
 
       #계정1, #계정2 {color: white;}
       #계정1:hover, #계정2:hover {text-decoration: underline;}
@@ -64,9 +64,9 @@
 
 @font-face { font-family: 'Nanum Myeongjo', serif; }
 
-  body {background-color: #efebe8;cursor:url(온.cur),auto;}
+  body {background-color: #efebe8;cursor:url(fullr.cur),auto;}
   a {text-decoration:none;
-  cursor:url(반.cur),auto;}
+  cursor:url(halfr.cur),auto;}
   h1 {padding:5px;
   display:block;
   width:90%;
@@ -96,12 +96,13 @@ p{display:block;
 .카 {color:black;}
 .카:hover {opacity:0;}
 
-.wrap{width:100%;
+/*.wrap{width:100%;
   overflow-x:scroll;
   white-space:nowrap;
   display: block;
   margin-top: 100px;
-  }
+  }*/
+
 
 
 #격:hover {color: transparent;}
@@ -210,4 +211,30 @@ font-weight: bold;
 color: #000;
 text-decoration: none;
 cursor: pointer;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:500px)
+{
+  .poster {height: 150px;}
+  .wrap{width:100%;
+    overflow-x:scroll;
+    white-space:nowrap;
+    display: block;
+    margin-top: 50px;
+    }
+}
+@media screen and (min-width:501px)
+{
+    .poster {width: 200px;}
+    .wrap{width:99%;
+      overflow-x:scroll;
+      white-space:nowrap;
+      display: block;
+      margin: auto;
+      margin-top: 100px;
+      }
+
+
 }
