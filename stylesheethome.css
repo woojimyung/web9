@@ -79,7 +79,7 @@
     a {color:#cc0000;
 
       text-decoration:none;
-      cursor:url(반.cur),auto;}
+      cursor:url(halfr.cur),auto;}
 
     h2 {
       font-family: 'Nanum Myeongjo', serif;
@@ -89,7 +89,7 @@
       line-height:80px}
 
 
-    body {background-color: #efebe8;cursor:url(온.cur),auto;
+    body {background-color: #efebe8;cursor:url(fullr.cur),auto;
 
 
           background-position: 50% 70px;

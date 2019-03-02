@@ -49,7 +49,7 @@
       bottom: 30px;
       right: 40px;
     }
-    
+
 
       #계정1, #계정2 {color: white;}
       #계정1:hover, #계정2:hover {text-decoration: underline;}
@@ -64,7 +64,7 @@
 
 @font-face { font-family: 'Nanum Myeongjo', serif; }
 
-body {background-color: #eeece9;cursor:url(온.cur),auto;
+body {background-color: #eeece9;cursor:url(fullr.cur),auto;
       background-image: url(redbook2lll.png);background-repeat: no-repeat;
       background-attachment:scroll;background-position: -30px -40px;
       background-size: 80%;}
@@ -95,7 +95,7 @@ body {background-color: #eeece9;cursor:url(온.cur),auto;
   line-height: 35px;}
   a {text-decoration:none;
     color:#ac2a34;
-  cursor:url(반.cur),auto;}
+  cursor:url(halfr.cur),auto;}
 
 
 

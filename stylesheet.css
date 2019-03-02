@@ -61,27 +61,34 @@
       {display: block;
       margin: auto;
       margin-top: 100px;
-      margin-bottom: 80px;}
+      margin-bottom: 120px;}
 
 
 
 
 @font-face { font-family: 'Nanum Myeongjo', serif; }
 
-  body {background-color: #efebe8;cursor:url(온.cur),auto;}
-  a {text-decoration:none;
-  cursor:url(반.cur),auto;}
-  h1 {padding:5px;
-  display:block;
-  width:70%;
-  text-align: left;
-  margin:auto;
-  margin-top: 100px;
-  margin-bottom:0px;
-  font-size:45px;
-  word-break:break-all;
-  font-family: 'Nanum Myeongjo', serif;
-  line-height:70px;}
+  body {background-color: #efebe8;cursor:url(fullr.cur),auto;}
+  a {color:#cc0000;
+
+    text-decoration:none;
+    cursor:url(halfr.cur),auto;}
+    a:hover {color: transparent;}
+
+    .카 {color:black;}
+    .카:hover {opacity:0;}
+
+    h1 {border:0px dotted #7FFF00;
+    padding:5px;
+    margin:auto;
+    margin-bottom:30px;
+    display:block;
+    width:75%;
+    font-size:48px;
+    word-break:break-all;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height:70px;}
+
   h2 {font-family: 'Nanum Myeongjo', serif;
   display:block;
   text-align:center;
@@ -93,7 +100,9 @@
   h4 {font-family: 'Nanum Myeongjo', serif;
   text-align: center;
   font-size:20px;
-  line-height: 35px;}
+  line-height: 35px;
+  bottom: 5px;
+  }
 
 #격:hover {color:#b0232b;}
 #격 {color:transparent;text-decoration-color:#b0232b;text-decoration-line: underline;}
@@ -285,4 +294,202 @@ font-weight: bold;
 color: #000;
 text-decoration: none;
 cursor: pointer;
+}
+
+
+@media (min-width:0px) and (max-width:500px)
+{
+  .poster {width: 200px;}
+  .wrap{width:100%;
+    overflow-x:scroll;
+    white-space:nowrap;
+    display: block;
+    margin-top: 100px;}
+
+
+    #cat {position: fixed;
+    border: 0px;
+    background-color: #efebe8;
+    width: ;
+    height: ;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+    h3 {font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    font-size:19px;}
+
+
+    h1 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom:20px;
+      }
+
+    h2 {font-family: 'Nanum Myeongjo', serif;
+    display:block;
+    text-align:center;
+    font-size:20px;
+    line-height: 30px;
+    }
+
+    #myBtn {position: fixed;
+      width: 15%;
+      z-index: 0;
+    border: 0px;
+    background-color: transparent;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+     /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+    right: 10px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: transparent; /* Fallback color */
+
+  }
+
+/* Modal Content */
+.modal-content {/*font-family: 'Nanum Myeongjo', serif;
+
+font-size: 40px;
+line-height:60px;
+color: white;
+overflow: scroll;*/
+z-index: 3;
+background-color: #b11928;
+width: 200px;
+height: 400px;
+
+position: fixed;
+top: 30%;
+bottom: ;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+animation: modalContentFadeIn .5s 0s linear forwards;
+}
+.content{
+font-family: 'Noto Sans KR', sans-serif;
+
+  font-size: 13px;
+  line-height:23px;
+  color: white;
+  z-index: 3;
+  width: 190px;
+  height: 350px;
+  overflow: scroll;
+  position: left;
+
+  animation: modalContentFadeIn .5s 0s linear forwards;
+}
+
+.content2
+{  font-family: 'Noto Sans KR', sans-serif;
+
+  font-size: 13px;
+  line-height:23px;
+  color: white;}
+
+
+
+img.homebutton
+{width: 50px;}
+
+#권혁규
+{padding:5px;
+display:block;
+width:90%;
+text-align: center;
+margin:auto;
+margin-top: 40px;
+margin-bottom:30px;
+font-size:28px;
+word-break:break-all;
+font-family: 'Nanum Myeongjo', serif;
+line-height:47px;}
+.권혁규0 {
+  margin-top: 0px;
+  padding:5px;
+display:block;
+width:90%;
+text-align: center;
+margin: auto;
+margin-bottom:0px;
+font-size:28px;
+word-break:break-all;
+font-family: 'Nanum Myeongjo', serif;
+line-height:47px;}
+#김아정
+{padding:5px;
+display:block;
+width:90%;
+text-align: left;
+margin:auto;
+margin-top: 50px;
+margin-bottom:30px;
+font-size:28px;
+word-break:break-all;
+font-family: 'Nanum Myeongjo', serif;
+line-height:47px;}
+#박도현
+{padding:5px;
+display:block;
+width:90%;
+text-align: left;
+margin:auto;
+margin-top: 50px;
+margin-bottom:30px;
+font-size:28px;
+word-break:break-all;
+font-family: 'Nanum Myeongjo', serif;
+line-height:47px;}
+#이사은
+{padding:5px;
+display:block;
+width:90%;
+text-align: center;
+margin:auto;
+margin-top: 50px;
+margin-bottom:30px;
+font-size:28px;
+word-break:break-all;
+font-family: 'Nanum Myeongjo', serif;
+line-height:47px;}
+#백윤주
+{padding:5px;
+display:block;
+width:90%;
+text-align: center;
+margin:auto;
+margin-top: 50px;
+margin-bottom:0px;
+font-size:28px;
+word-break:break-all;
+font-family: 'Nanum Myeongjo', serif;
+line-height:47px;}
+
+h4 {font-family: 'Nanum Myeongjo', serif;
+text-align: center;
+font-size:10px;
+line-height: 20px;
+bottom: 5px;}
+
+
+
+
 }

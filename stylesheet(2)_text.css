@@ -66,9 +66,9 @@
 
 @font-face { font-family: 'Nanum Myeongjo', serif; }
 
-  body {background-color: #efebe8;cursor:url(온.cur),auto;}
+  body {background-color: #efebe8;cursor:url(fullr.cur),auto;}
   a {text-decoration:none;
-  cursor:url(반.cur),auto;
+  cursor:url(halfr.cur),auto;
   }
   h1 {padding:5px;
   display:block;

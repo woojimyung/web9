@@ -50,7 +50,9 @@
       bottom: 30px;
       right: 40px;
     }
-      
+      #myBtn:hover {opacity: 0;}
+      #myBtn:active, #myBtn:checked {opacity:0;
+                    }
 
       #계정1, #계정2 {color: white;}
       #계정1:hover, #계정2:hover {text-decoration: underline;}
@@ -64,9 +66,9 @@
 
 @font-face { font-family: 'Nanum Myeongjo', serif; }
 
-  body {background-color: #efebe8;cursor:url(온.cur),auto;}
+  body {background-color: #efebe8;cursor:url(fullr.cur),auto;}
   a {text-decoration:none;
-  cursor:url(반.cur),auto;
+  cursor:url(halfr.cur),auto;
   }
   h1 {padding:5px;
   display:block;
@@ -95,7 +97,7 @@
 .gif{display: block;
 margin: auto;
 margin-top: 100px;
-line-height: 50px;}
+line-height: 28px;}
 .카 {color:black;}
 .카:hover {opacity:0;}
 
@@ -206,3 +208,123 @@ color: #000;
 text-decoration: none;
 cursor: pointer;
 }
+
+@media (min-width:0px) and (max-width:500px)
+{
+  .poster {width: 200px;}
+  .wrap{width:100%;
+    overflow-x:scroll;
+    white-space:nowrap;
+    display: block;
+    margin-top: 100px;}
+
+
+    #cat {position: fixed;
+    border: 0px;
+    background-color: #efebe8;
+    width: ;
+    height: ;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    }
+
+    h3 {font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    font-size:19px;}
+
+
+    h1 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom:20px;
+      }
+
+        #homebanner
+        {display: block;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 65px;}
+
+
+    #myBtn {position: fixed;
+      width: 15%;
+      z-index: 0;
+    border: 0px;
+    background-color: transparent;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+     /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+    right: 10px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: transparent; /* Fallback color */
+
+  }
+
+/* Modal Content */
+.modal-content {/*font-family: 'Nanum Myeongjo', serif;
+
+font-size: 40px;
+line-height:60px;
+color: white;
+overflow: scroll;*/
+z-index: 3;
+background-color: #b11928;
+width: 200px;
+height: 400px;
+position: fixed;
+top: 30%;
+bottom: ;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+animation: modalContentFadeIn .5s 0s linear forwards;
+}
+.content{
+font-family: 'Noto Sans KR', sans-serif;
+
+  font-size: 13px;
+  line-height:23px;
+  color: white;
+  z-index: 3;
+  width: 190px;
+  height: 350px;
+  overflow: scroll;
+  position: left;
+
+  animation: modalContentFadeIn .5s 0s linear forwards;
+}
+
+.content2
+{  font-family: 'Noto Sans KR', sans-serif;
+
+  font-size: 13px;
+  line-height:23px;
+  color: white;}
+
+
+
+.gif{display: block;
+margin: auto;
+margin-top: 100px;
+line-height: 28px;}
+
+img.homebutton
+{width: 50px;}
+
+
+  }
