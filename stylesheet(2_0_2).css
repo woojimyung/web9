@@ -80,11 +80,11 @@
   margin:auto;
   margin-top: 50px;
   margin-bottom:30px;
-  font-size:45px;
+  font-size:35px;
   word-break:break-all;
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 700;
-  line-height:70px;}
+  line-height:60px;}
   h2 {font-family: 'Nanum Myeongjo', serif;
   display:block;
   text-align:center;
@@ -227,20 +227,19 @@ cursor: pointer;
 
     h3 {font-family: 'Nanum Myeongjo', serif;
     text-align: center;
-    font-size:35px;}
+    font-size:25px;}
 
 
     h1 {
-      font-size: 35px;
-      line-height: 50px;
-      margin-bottom:20px;
+      font-size: 25px;
+      line-height: 40px;
+      margin-bottom:45px;
       margin-top: 20px;
       word-break:keep-all;
       display: block;
       width: 90%;
       text-align: left;
       font-weight: 700;
-
       }
 
       h5 {
@@ -298,7 +297,7 @@ background-color: #b11928;
 width: 200px;
 height: 400px;
 position: fixed;
-top: 30%;
+top: 15%;
 bottom: ;
 padding-left: 10px;
 padding-right: 10px;
