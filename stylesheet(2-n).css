@@ -300,16 +300,16 @@ cursor: pointer;
 @media (min-width:0px) and (max-width:600px)
 {
 
-    #cat {position: fixed;
-    border: 0px;
-    background-color: #efebe8;
-    width: ;
-    height: ;
-    top: 0px;
-    left: 0;
-    right: 0;
+  #cat {position: fixed;
+  border: 0px;
+  background-color: #efebe8;
+  width: ;
+  height: ;
+  top: 0px;
+  left: 0;
+  right: 0;
 
-    }
+  }
 
     h3 {font-family: 'Nanum Myeongjo', serif;
     text-align: center;
@@ -321,7 +321,7 @@ cursor: pointer;
     width:90%;
     text-align: left;
     margin:auto;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom:30px;
     font-size:22px;
     word-break:break-all;
@@ -383,7 +383,7 @@ animation: modalContentFadeIn .5s 0s linear forwards;
 }
 .content{
 font-family: 'Noto Sans KR', sans-serif;
-
+  font-weight: 300;
   font-size: 13px;
   line-height:23px;
   color: white;
@@ -398,7 +398,7 @@ font-family: 'Noto Sans KR', sans-serif;
 
 .content2
 {  font-family: 'Noto Sans KR', sans-serif;
-
+  font-weight: 300;
   font-size: 13px;
   line-height:23px;
   color: white;}
@@ -418,7 +418,7 @@ margin-bottom:0px;
 font-size:22px;
 word-break: keep-all;
 font-family: 'Nanum Myeongjo', serif;
-line-height:38px;}
+line-height:34px;}
 
 .권혁규0 {
   margin-top: 0px;
@@ -431,7 +431,7 @@ margin-bottom:0px;
 font-size:22px;
 word-break:break-all;
 font-family: 'Nanum Myeongjo', serif;
-line-height:38px;}
+line-height:34px;}
 #김아정
 {padding:5px;
 display:block;
@@ -443,7 +443,7 @@ margin-bottom:30px;
 font-size:22px;
 word-break:break-all;
 font-family: 'Nanum Myeongjo', serif;
-line-height:38px;}
+line-height:34px;}
 #박도현
 {padding:5px;
 display:block;
@@ -455,7 +455,7 @@ margin-bottom:30px;
 font-size:22px;
 word-break:break-all;
 font-family: 'Nanum Myeongjo', serif;
-line-height:38px;}
+line-height:34px;}
 #이사은
 {padding:5px;
 display:block;
@@ -467,7 +467,7 @@ margin-bottom:30px;
 font-size:22px;
 word-break:break-all;
 font-family: 'Nanum Myeongjo', serif;
-line-height:38px;}
+line-height:34px;}
 #백윤주
 {padding:5px;
 display:block;
@@ -479,7 +479,7 @@ margin-bottom:0px;
 font-size:22px;
 word-break:break-all;
 font-family: 'Nanum Myeongjo', serif;
-line-height:38px;}
+line-height:34px;}
 #백윤주2
 {padding:5px;
 display:block;
@@ -491,7 +491,7 @@ margin-bottom: 0px;
 font-size:22px;
 word-break:break-all;
 font-family: 'Nanum Myeongjo', serif;
-line-height:38px;}
+line-height:34px;}
 
 
 h4 {font-family: 'Nanum Myeongjo', serif;
