@@ -252,14 +252,12 @@
             top: 0px;
             left: 0;
             right: 0;
-            padding: auto;
-            padding-bottom: 5px;
-            padding-top: 5px;
+            
             }
 
             h3 {font-family: 'Nanum Myeongjo', serif;
             text-align: center;
-            font-size:35px;}
+            font-size:25px;}
 
 
             h1 {
@@ -312,7 +310,7 @@
         height: 400px;
 
         position: fixed;
-        top: 30%;
+        top: 15%;
         bottom: ;
         padding-left: 10px;
         padding-right: 10px;
