@@ -506,26 +506,48 @@ margin: auto;
 margin-top: 40px;
 margin-bottom: 20px;}
 
-
-#격 {text-decoration-line: underline;color:#b0232b;}
-#궁 {text-decoration-line: underline;color:#b0232b;}
-#재{text-decoration-line: underline;color:#b0232b;}
-#나{text-decoration-line: underline;color:#b0232b;}
-#실{text-decoration-line: underline;color:#b0232b;}
-#하{text-decoration-line: underline;color:#b0232b;}
-#애{text-decoration-line: underline;color:#b0232b;}
+#격:hover {color:#b0232b;}
+#격 {color:#b0232b;text-decoration-color:#b0232b;-webkit-text-decoration-line:: underline;}
+#궁:hover {color:#b0232b;}
+#궁 {color:#b0232b;text-decoration-color:#b0232b;-webkit-text-decoration-line:: underline;}
+#재:hover {color:#b0232b;}
+#재 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#나:hover {color:#b0232b;}
+#나 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#실:hover {color:#b0232b;}
+#실 {color:#b0232b;text-decoration-color:#b0232b;-webkit-text-decoration-line:: underline;}
+#하:hover {color:#b0232b;}
+#하 {color:#b0232b;text-decoration-color: #b0232b;-webkit-text-decoration-line:: underline;}
+#애:hover {color:#b0232b;}
+#애 {color:#b0232b;text-decoration-color:#b0232b;-webkit-text-decoration-line:: underline;}
+#각주1 {color:#6e8472;}
 #각주1:hover, #각주1:active {text-decoration: underline;}
-#지{text-decoration-line: underline;color:#b0232b;}
-#혼{text-decoration-line: underline;color:#b0232b;}
+#지:hover {color:#b0232b;}
+#지 {color:#b0232b;text-decoration-color:#b0232b;-webkit-text-decoration-line:: underline;}
+#혼:hover {color:#b0232b;}
+#혼 {color:#b0232b;text-decoration-color:#b0232b;-webkit-text-decoration-line:: underline;}
 #각주2 {color:#6e8472;}
-#셀{text-decoration-line: underline;color:#b0232b;}
+#각주2:hover, #각주2:active {text-decoration: underline;}
+#셀:hover {color:#b0232b;}
+#셀 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#각주3 {color:#6e8472;}
 #각주3:hover, #각주3:active {text-decoration: underline;}
-#따{text-decoration-line: underline;color:#b0232b;}
-#단{text-decoration-line: underline;color:#b0232b;}
-#시{text-decoration-line: underline;color:#b0232b;}
-#기{text-decoration-line: underline;color:#b0232b;}
-#보{text-decoration-line: underline;color:#b0232b;}
-#모{text-decoration-line: underline;color:#b0232b;} 
-#그{text-decoration-line: underline;color:#b0232b;}
+#따:hover {color:#b0232b;}
+#따 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#단:hover {color:#b0232b;}
+#단 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#시:hover {color:#b0232b;}
+#시 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#기:hover {color:#b0232b;}
+#기 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#보:hover {color:#b0232b;;}
+#보 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#모:hover {color:#b0232b;}
+#모 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+#그:hover {color:#b0232b;}
+#그 {color:#b0232b;-webkit-text-decoration-line:: underline;text-decoration-color:#b0232b;}
+
+
+
 
 }
