@@ -194,21 +194,21 @@ cursor: pointer;
   {width: 70px;}
 
 h1 {
-  font-size:16.5px;
+  font-size:17px;
   margin-top:100px;
   margin-bottom:25px;
   margin-left: 37%;
-  line-height:31px;
+  line-height:30px;
   font-weight: 700;
   }
-.redpage {width:93%;margin-top:0px; margin-left:-20%;
-opacity:0.98}
+.redpage {width:95%;display: block;margin-top:-100px; margin-left:-15%;
+opacity:1}
 .paragraph {;
 
 }
 h3 {font-family: 'Nanum Myeongjo', serif;
 text-align: center;
-font-size:35px;}
+font-size:25px;}
 
 #cat {position: fixed;
 border: 0px;
@@ -218,9 +218,7 @@ height: ;
 top: 0px;
 left: 0;
 right: 0;
-padding: auto;
-padding-top: 5px;
-padding-bottom: 5px;
+
 }
 
 #myBtn {position: fixed;
@@ -260,7 +258,7 @@ width: 200px;
 height: 400px;
 
 position: fixed;
-top: 30%;
+top: 15%;
 bottom: ;
 padding-left: 10px;
 padding-right: 10px;
