@@ -315,7 +315,7 @@ cursor: pointer;
 
     h3 {font-family: 'Nanum Myeongjo', serif;
     text-align: center;
-    font-size:35px;}
+    font-size:25px;}
 
 
     h1 {padding:5px;
@@ -375,7 +375,7 @@ width: 200px;
 height: 400px;
 
 position: fixed;
-top: 30%;
+top: 15%;
 bottom: ;
 padding-left: 10px;
 padding-right: 10px;
