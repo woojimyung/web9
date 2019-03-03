@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700,800&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400');
 @keyframes modalContentFadeIn {
   0% {
     opacity:0;
@@ -50,6 +51,9 @@
       bottom: 30px;
       right: 40px;
     }
+    #myBtn:hover {opacity: 0;}
+    #myBtn:active, #myBtn:checked {opacity:0;
+                  }
 
 
       #계정1, #계정2 {color: white;}
@@ -77,6 +81,7 @@
   font-size:50px;
   word-break:break-all;
   font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
   line-height:70px;}
   h2 {font-family: 'Nanum Myeongjo', serif;
   display:block;
@@ -178,7 +183,7 @@ animation: modalContentFadeIn .5s 0s linear forwards;
 }
 .content{
 font-family: 'Noto Sans KR', sans-serif;
-
+font-weight: 300;
 font-size: 15px;
 line-height:25px;
 color: white;
@@ -187,13 +192,13 @@ width: 250px;
 height: 400px;
 overflow: auto;
 position: center;
-
+word-break: keep-all;
 animation: modalContentFadeIn .5s 0s linear forwards;
 }
 
 .content2
 {  font-family: 'Noto Sans KR', sans-serif;
-
+font-weight: 300;
 font-size: 15px;
 line-height:25px;
 color: white;}
@@ -219,7 +224,7 @@ cursor: pointer;
   display: block;
   margin-top: 100px;}
 
-  @media (min-width:0px) and (max-width:500px)
+  @media (min-width:0px) and (max-width:600px)
   {
     .poster {width: 200px;}
     .wrap{width:100%;
@@ -244,7 +249,7 @@ cursor: pointer;
 
       h3 {font-family: 'Nanum Myeongjo', serif;
       text-align: center;
-      font-size:19px;}
+      font-size:35px;}
 
 
       h1 {padding:5px;
@@ -257,6 +262,7 @@ cursor: pointer;
       font-size:28px;
       word-break:break-all;
       font-family: 'Nanum Myeongjo', serif;
+      font-weight: 700;
       line-height:47px;}
 
       h2 {font-family: 'Nanum Myeongjo', serif;
@@ -274,6 +280,7 @@ cursor: pointer;
       bottom: 20px;
       right: 20px;
     }
+
 
     .modal {
       display: none; /* Hidden by default */
@@ -335,8 +342,8 @@ cursor: pointer;
 
 
 
-  img.homebutton
-  {width: 50px;}
+    img.homebutton
+    {width: 70px;}
 
   #권혁규
   {padding:5px;

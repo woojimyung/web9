@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700,800&subset=korean');
+max-width:600px@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700,800&subset=korean');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 @keyframes modalContentFadeIn {
   0% {
@@ -13,6 +13,18 @@
 
   }
 }
+
+.text {
+      font-family: 'Nanum Myeongjo', serif;
+      font-size: 20px;
+      line-height: 40px;
+      width:90%;
+      display:block; margin-right:auto; margin-left:auto;
+      text-align:center;
+      word-break: normal;
+      font-weight:600;
+    }
+
   #home {color:black;
         text-decoration:none;
         display:inline-block;
@@ -53,7 +65,7 @@
   background-color: transparent;
   bottom: 30px;
   right: 40px;
-}
+  }
   #myBtn:hover {opacity: 0;}
   #myBtn:active, #myBtn:checked {opacity:0;
                 }
@@ -191,7 +203,7 @@
 
 
 
-@media (min-width:0px) and (max-width:500px)
+@media (min-width:0px) and (max-width:600px)
 {
   .poster {width: 200px;}
   .wrap{width:100%;
@@ -216,7 +228,7 @@
 
     h3 {font-family: 'Nanum Myeongjo', serif;
     text-align: center;
-    font-size:19px;}
+    font-size:35px;}
 
 
     h1 {
@@ -254,7 +266,7 @@
     overflow: auto; /* Enable scroll if needed */
     background-color: transparent; /* Fallback color */
 
-  }
+    }
 
 /* Modal Content */
 .modal-content {/*font-family: 'Nanum Myeongjo', serif;
@@ -301,7 +313,7 @@ font-family: 'Noto Sans KR', sans-serif;
 
 
 
-img.homebutton
-{width: 50px;}
+  img.homebutton
+  {width: 70px;}
 
 }

@@ -1,0 +1,320 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700,800&subset=korean');
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400');
+  @keyframes modalContentFadeIn {
+    0% {
+      opacity:0;
+
+      right: -300px
+    }
+    100% {
+      opacity:1;
+
+      right: 0px
+
+    }
+  }
+
+
+    #map_ma {
+    width:1200px; height:500px;
+    clear:both;
+    display:block; margin-right: auto; margin-left:auto;
+    margin-top:100px;
+  }
+
+
+    #home {
+    color:black;
+    text-decoration:none;
+    display:inline-block;
+    margin-top: 130px;
+    margin-bottom: 130px
+  }
+  #cat {position: fixed;
+  border: 0px;
+  background-color: #d27664;
+  width: ;
+  height: ;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 1;}
+
+    #button {position: fixed;
+    border: 0px;
+    background-color: transparent;
+    width: px;
+    height: px;
+    top: 100px;
+    left: 10px;
+    right: 0;}
+
+    #button2 {position: fixed;
+    border: 0px;
+    background-color: transparent;
+    width: px;
+    height: px;
+    top: 100px;
+
+    right: 10px;}
+
+    a:hover {color: transparent;}
+
+    .카 {color:black;}
+    .카:hover {opacity: 0;}
+
+    .들여쓰기 {text-indent: 1.3em;}
+    .들여쓰기영 {text-indent: 1.3em;}
+
+    #계정1, #계정2, #계정3, #계정4 {color: black;}
+    #계정1:hover, #계정2:hover, #계정3:hover, #계정4:hover {text-decoration: underline;}
+
+    .modal {
+      display: none; /* Hidden by default */
+       /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      right: 10px;
+      width: 50%; /* Full width */
+      height: 50%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: transparent; /* Fallback color */
+
+    }
+
+    /* Modal Content */
+    .modal-content {/*font-family: 'Nanum Myeongjo', serif;
+
+    font-size: 40px;
+    line-height:60px;
+    color: white;
+    overflow: scroll;*/
+    z-index: 3;
+    background-color: #eeece9;
+    width: 280px;
+    height: 440px;
+
+    position: fixed;
+    top: 33.3%;
+    bottom: ;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    animation: modalContentFadeIn .5s 0s linear forwards;
+    }
+    .content{
+    font-family: 'Noto Sans KR', sans-serif;
+
+    font-size: 15px;
+    line-height:25px;
+    color: black;;
+    z-index: 3;
+    width: 250px;
+    height: 400px;
+    overflow: auto;
+    position: center;
+
+    animation: modalContentFadeIn .5s 0s linear forwards;
+    }
+
+    .content2
+    {  font-family: 'Noto Sans KR', sans-serif;
+
+    font-size: 15px;
+    line-height:25px;
+    color: black;}
+    /* The Close Button */
+    .close {
+
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+
+  @font-face { font-family: 'Nanum Myeongjo', serif; }
+      h1 {
+      font-family: 'Nanum Myeongjo', serif;
+      }
+
+      a {color:#cc0000;
+
+        text-decoration:none;
+        cursor:url(halfg.cur),auto;}
+
+      h2 {
+        font-family: 'Nanum Myeongjo', serif;
+        display:block;
+        text-align:center;
+        font-size:70px;
+        line-height:80px}
+
+
+      body {background-color: #d27664;cursor:url(fullg.cur),auto;}
+
+      h3 {font-family: 'Nanum Myeongjo', serif;
+      text-align: center;
+      font-size:35px;}
+      {
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 30px;
+        line-height: 0px;
+        text-align:center;
+        color:black;
+        margin:0px;
+      }
+      .htv{
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 22px;
+        line-height: 40px;
+        text-align:left;
+        color:black;
+        font-weight: 200;
+        -moz-column-count: 2;
+        -webkit-column-count:2;
+        column-count: 2;
+        width: 80%; margin-right:auto;margin-left: auto; display: block;
+      }
+
+      #myBtn {position: fixed;
+        z-index: 0;
+      border: 0px;
+      background-color: transparent;
+      bottom: 30px;
+      right: 40px;
+      }
+      #myBtn:hover {opacity: 0;}
+      #myBtn:active, #myBtn:checked {opacity:0;
+                  }
+
+
+@media (min-width:0px) and (max-width:600px)
+{
+  #myBtn {position: fixed;
+    width: 15%;
+    z-index: 0;
+  border: 0px;
+  background-color: transparent;
+  bottom: 20px;
+  right: 20px;
+}
+
+  #map_ma {
+  width:100%; height:400px;
+  clear:both;
+  display:block; margin: auto;
+  margin-top:80px;
+  z-index: -1;
+    }
+        h1 {
+          width:80px;
+          font-weight: 700;
+          margin-bottom:45px;
+          font-size: 20px}
+
+
+
+          .htv {
+                  font-size:8px;
+                  line-height: 20px;
+                  margin-right:0px; margin-left: 3%;
+                  max-height: 600px;
+                }
+                #map_ma {
+                  width:100%; height:300px;
+                  clear:both;
+                  display:block; margin: auto;
+                  margin-top:80px;
+                  z-index: -1;
+              }
+               h3{
+                 font-size:15px;
+
+      #cat {position: fixed;
+      border: 0px;
+      background-color: #d27664;
+      width: ;
+      height: ;
+      top: 0px;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      padding: auto;
+      padding-top: 5px;
+      padding-bottom: 5px;}
+
+
+    img.homebutton
+    {width: 70px;}
+
+    .modal {
+      display: none; /* Hidden by default */
+       /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 20px; /* Location of the box */
+      left: 0;
+      top: 0;
+      right: 10px;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: transparent; /* Fallback color */
+
+    }
+
+  /* Modal Content */
+  .modal-content {/*font-family: 'Nanum Myeongjo', serif;
+
+  font-size: 40px;
+  line-height:60px;
+  color: white;
+  overflow: scroll;*/
+  z-index: 3;
+  background-color: #efebe8;
+  width: 200px;
+  height: 400px;
+
+  position: fixed;
+  top: 30%;
+  bottom: ;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  animation: modalContentFadeIn .5s 0s linear forwards;
+  }
+  .content{
+  font-family: 'Noto Sans KR', sans-serif;
+
+    font-size: 13px;
+    line-height:23px;
+    color: black;
+    z-index: 3;
+    width: 190px;
+    height: 350px;
+    overflow: scroll;
+    position: left;
+
+    animation: modalContentFadeIn .5s 0s linear forwards;
+  }
+
+  .content2
+  {  font-family: 'Noto Sans KR', sans-serif;
+
+    font-size: 13px;
+    line-height:23px;
+    color: black;}
+
+}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700,800&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400');
 @keyframes modalContentFadeIn {
   0% {
     opacity:0;
@@ -49,6 +50,9 @@
       bottom: 30px;
       right: 40px;
     }
+    #myBtn:hover {opacity: 0;}
+    #myBtn:active, #myBtn:checked {opacity:0;
+                  }
 
       #계정1, #계정2 {color: #ac2a34;}
       #계정1:hover, #계정2:hover {text-decoration: underline;}
@@ -112,6 +116,7 @@
     font-size:50px;
     word-break:break-all;
     font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
     line-height:70px;}
 
     a {color:#ac2a34;
@@ -143,13 +148,14 @@
       h1 {
         width:80px;
         margin-bottom:45px;
+        font-weight: 700;
         }
 
     }
     a:hover {color: transparent;}
 
     .카 {color:black;}
-    .카:hover {color:transparent;}
+    .카:hover {opacity:0;}
 
     h5 {font-family: 'Nanum Myeongjo', serif;
         text-align:center;}
@@ -193,7 +199,8 @@
         }
         .content{
         font-family: 'Noto Sans KR', sans-serif;
-
+        font-weight: 400;
+        word-break: keep-all;
         font-size: 15px;
         line-height:25px;
         color: black;
@@ -208,7 +215,7 @@
 
         .content2
         {  font-family: 'Noto Sans KR', sans-serif;
-
+        font-weight: 400;
         font-size: 15px;
         line-height:25px;
         color: black;}
@@ -228,7 +235,7 @@
         cursor: pointer;
         }
 
-  @media (min-width:0px) and (max-width:500px)
+  @media (min-width:0px) and (max-width:600px)
         {
           .poster {width: 200px;}
           .wrap{width:100%;
@@ -252,7 +259,7 @@
 
             h3 {font-family: 'Nanum Myeongjo', serif;
             text-align: center;
-            font-size:19px;}
+            font-size:35px;}
 
 
             h1 {
@@ -344,7 +351,7 @@
         line-height: 28px;}
 
         img.homebutton
-        {width: 50px;}
+        {width: 70px;}
 
         #video1 {display:block;
                 margin: auto;
