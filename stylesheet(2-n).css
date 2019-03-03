@@ -308,9 +308,7 @@ cursor: pointer;
     top: 0px;
     left: 0;
     right: 0;
-    padding: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
     }
 
     h3 {font-family: 'Nanum Myeongjo', serif;
@@ -328,7 +326,7 @@ cursor: pointer;
     font-size:22px;
     word-break:break-all;
     font-family: 'Nanum Myeongjo', serif;
-    line-height:36px;
+    line-height:34px;
   font-weight: 700;}
 
     h2 {font-family: 'Nanum Myeongjo', serif;
