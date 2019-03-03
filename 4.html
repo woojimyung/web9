@@ -1,292 +1,112 @@
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700,800&subset=korean');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400');
-@keyframes modalContentFadeIn {
-  0% {
-    opacity:0;
-
-    right: -300px
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+  </title>
+  <meta charset="utf-8"
+  name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700,800&amp;subset=korean" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet(4).css">
+  <script>
+  function goForward() {
+    window.history.forward();
   }
-  100% {
-    opacity:1;
-
-    right: 0px
-
+  function goBack() {
+    window.history.back();
   }
-}
-      #home {color:black;
-      text-decoration:none;}
-      #button {position: fixed;
-      border: 0px;
-      background-color: transparent;
-      width: px;
-      height: px;
-      top: 100px;
-      left: 10px;
-      right: 0;}
-      #button2 {position: fixed;
-      border: 0px;
-      background-color: transparent;
-      width: px;
-      height: px;
-      top: 100px;
-      right: 10px;}
-      #cat {position: fixed;
-      border: 0px;
-      background-color: #eeece9;
-      width: ;
-      height: ;
-      top: 0px;
-      left: 0;
-      right: 0;}
-      #기역기역 {position: fixed;
-      border: 0px;
-      background-color: transparent;
-      bottom: 30px;
-      right: 40px;}
-      #myBtn {position: fixed;
-        z-index: 0;
-      border: 0px;
-      background-color: transparent;
-      bottom: 30px;
-      right: 40px;
-    }  #myBtn:hover {opacity: 0;}
-      #myBtn:active, #myBtn:checked {opacity:0;
-                    }
+  </script>
+
+</head>
+<body>
+
+  <h3><div style="width:100%; text-align:center; margin:auto" class="category" id="cat">
+        <a href="about.html" target="_blank"><div style="display:inline-block; float:left; width:30%;margin:10px" class="카">About</div></a>
+
+        <a href="1.html"><div style="display:inline-block; width:20%; margin:10px" class="카"><img src="home.png" width="39%" class="homebutton"></div></a>
+
+        <a href="7.html"><div style="display:inline-block; float:right;width:30%; margin:10px" class="카">Visit</div></a>
+    </div>
+  </h3>
+
+  <div class="redpage" ><video src="redpage.mp4" autoplay loop muted playsinline style="width:80%"></video> </div>
+
+  <div claass="paragraph"><h1><a href="2-1.html">격리된 온실에서.</a> <a href="2-2.html">궁궐의 도시, 서울? 그곳은 어떤 곳일까.</a>
+  <a href="2-3.html">재현을 폐기하는 데 이르는 길을 가리키고 있다.</a> <a href="2-4.html">나는 매일 밤 홀로 대화를 시작한다.</a>
+  <a href="2-5.html">실리의 골격을 닮은 문장이 (…) 달라지는 걸 지켜보는 게 좋았다.</a>
+  <a href="2-6.html">하나둘씩 반짝이기 시작한다.</a>
+  <a href="2-7.html">애벌레는 플라스틱을 먹을 수 있다.</a>
+  <a href="2-8.html">“지옥은 바로 타인들이야”.</a>
+  <a href="2-9.html">혼자서 명절을 쇨 수는 없을까?</a> <a href="2-10.html">셀은 표 편집의 기본 단위가 됩니다.</a>
+  <a href="2-11.html">따라란- 박수 짝짝- 변신완료!</a>
+  <a href="2-12.html">“단 하나의 아름답고 은유적인 문장을 생각했어.”</a>
+  <a href="2-14.html">시네도키 식물원은 접어서 보관할 수 있다.</a>
+  <a href="2-15.html">기억 조각은 켜켜이 쌓여 공간의 기억이 됩니다.</a>
+  <a href="2-16.html">보이지 않는 OO들.</a>
+  <a href="2-18.html">모두 내 삶에서 일어난 일.</a>
+  <a href="2-18.html">그것은 글이라는 매체의 의의를 지키는 일입니다.</a></h1><div>
 
 
-      #계정1, #계정2 {color: white;}
-      #계정1:hover, #계정2:hover {text-decoration: underline;}
+    <!-- Trigger/Open The Modal -->
+    <img src="ddaom.png" id="myBtn" width="80px">
 
-      #homebanner
-      {display: block;
-      margin: auto;
-      margin-top: 100px;
-      margin-bottom: 80px;}
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
 
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="content"><p>‘기역기역’은 전시 기획 동아리로, 디자인 전공생 9인이 모여 전시, 워크숍, 월간지 발행 등 디자인과 관련된 다양한 활동을 기획합니다.
+        <br><br>
 
+  <div class="content2">instagram<br><a href="https://www.instagram.com/77_archive" id="계정1" target="_blank">@77_archive<br></a>
+  facebook<br><a href="https://www.facebook.com/77official77" id="계정2" target="_blank">@77official77</a></div>
+  <br><br>
+  <div class="content3">
+        ● 2017.5.20.<br> 1차 인디자인 워크숍(선배 초청)<br>
+    ● 2017.5.24.<br> 2차 인디자인 워크숍(선배 초청) <br>
+    ● 2017.9.11~15.<br> 서울대학교 아트스페이스<br> ‘기역도둑’ 참여 <br>
+    ● 2018.3.11~17.<br> 「 」 展 <br>
+    ● 2018.6.11~15.<br> 기역기역 아카이브 전시<br>‘기역의 책, 기역의 영상’<br>
+    ● 2018.9.27.<br> 학생 전시 월간지<br>‘호다닥’ 1호 발행<br>
+    ● 2018.10.31.<br> 학생 전시 월간지<br>‘호다닥’ 2호 발행<br>
+    ● 2018.12.6.<br> 2018 SNU DESIGN WEEK<br>선물 포장 워크숍<br>‘래핑랩(Wrapping Lab)’</div></p>
 
-@font-face { font-family: 'Nanum Myeongjo', serif; }
+      </div>
 
-body {background-color: #eeece9;
-  cursor:url(fullr.cur),auto;}
+    </div>
 
-  h1 {color:#;
-    padding:5px;
-  display:block;
-  width:55%;
-  text-align: left;
-  margin-left: 35%;
-  margin-top: 300px;
-  margin-bottom:-10px;
-  font-size:45px;
-  word-break:break-all;
-  font-family: 'Nanum Myeongjo', serif;
-  line-height:70px;
-  font-weight: 700;
-}
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
 
-  h2 {font-family: 'Nanum Myeongjo', serif;
-  display:block;
-  text-align:center;
-  font-size:70px;
-  line-height:80px}
-  h3 {font-family: 'Nanum Myeongjo', serif;
-  text-align: center;
-  font-size:35px;}
-  h4 {font-family: 'Nanum Myeongjo', serif;
-  text-align: center;
-  font-size:20px;
-  line-height: 35px;}
-  a {text-decoration:none; color:black;
-  cursor:url(halfr.cur),auto;}
-  a:hover{color:#b11928}
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
 
 
-.paragraph {}
-.redpage { position:absolute; top:70px;z-index:-2;margin-left:-5%;}
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
 
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
 
-.카 {color:black;}
-.카:hover {opacity:0;}
-
-.modal {
-  display: none; /* Hidden by default */
-   /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  right: 10px;
-  width: 50%; /* Full width */
-  height: 50%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: transparent; /* Fallback color */
-
-}
-
-/* Modal Content */
-.modal-content {/*font-family: 'Nanum Myeongjo', serif;
-
-font-size: 40px;
-line-height:60px;
-color: white;
-overflow: scroll;*/
-z-index: 3;
-background-color: #b11928;
-width: 280px;
-height: 440px;
-
-position: fixed;
-top: 33.3%;
-bottom: ;
-padding-left: 30px;
-padding-right: 10px;
-padding-top: 30px;
-padding-bottom: 0px;
-animation: modalContentFadeIn .5s 0s linear forwards;
-}
-.content{
-font-family: 'Noto Sans KR', sans-serif;
-font-weight: 300;
-word-break: keep-all;
-font-size: 15px;
-line-height:25px;
-color: white;
-z-index: 3;
-width: 250px;
-height: 400px;
-overflow: auto;
-position: center;
-
-animation: modalContentFadeIn .5s 0s linear forwards;
-}
-
-.content2
-{  font-family: 'Noto Sans KR', sans-serif;
-font-weight: 300;
-font-size: 15px;
-line-height:25px;
-color: white;}
-
-
-/* The Close Button */
-.close {
-
-color: #eeece9;
-float: right;
-font-size: 28px;
-font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-color: #000;
-text-decoration: none;
-cursor: pointer;
-}
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
 
 
 
-@media (min-width:0px) and (max-width:600px)
-{
-
-  img.homebutton
-  {width: 70px;}
-
-h1 {
-  font-size:17px;
-  margin-top:100px;
-  margin-bottom:25px;
-  margin-left: 37%;
-  line-height:30px;
-  font-weight: 700;
-  }
-.redpage {width:95%;display: block;margin-top:-100px; margin-left:-15%;
-opacity:1}
-.paragraph {;
-
-}
-h3 {font-family: 'Nanum Myeongjo', serif;
-text-align: center;
-font-size:25px;}
-
-#cat {position: fixed;
-border: 0px;
-background-color: #efebe8;
-width: ;
-height: ;
-top: 0px;
-left: 0;
-right: 0;
-
-}
-
-#myBtn {position: fixed;
-  width: 15%;
-  z-index: 0;
-border: 0px;
-background-color: transparent;
-bottom: 20px;
-right: 20px;
-}
-
-.modal {
-  display: none; /* Hidden by default */
-   /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 20px; /* Location of the box */
-  left: 0;
-  top: 0;
-  right: 10px;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: transparent; /* Fallback color */
-
-}
-
-/* Modal Content */
-.modal-content {/*font-family: 'Nanum Myeongjo', serif;
-
-font-size: 40px;
-line-height:60px;
-color: white;
-overflow: scroll;*/
-z-index: 3;
-background-color: #b11928;
-width: 200px;
-height: 400px;
-
-position: fixed;
-top: 15%;
-bottom: ;
-padding-left: 10px;
-padding-right: 10px;
-padding-top: 0px;
-padding-bottom: 0px;
-animation: modalContentFadeIn .5s 0s linear forwards;
-}
-.content{
-font-family: 'Noto Sans KR', sans-serif;
-
-font-size: 13px;
-line-height:23px;
-color: white;
-z-index: 3;
-width: 190px;
-height: 350px;
-overflow: scroll;
-position: left;
-
-animation: modalContentFadeIn .5s 0s linear forwards;
-}
-
-.content2
-{  font-family: 'Noto Sans KR', sans-serif;
-
-font-size: 13px;
-line-height:23px;
-color: white;}
 
 
-}
+    </body>
+    </html>
